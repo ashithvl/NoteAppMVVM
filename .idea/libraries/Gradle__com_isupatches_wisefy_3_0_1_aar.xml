@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.isupatches:wisefy:3.0.1@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/404124723f583b9259ad9c706d2ffcbc/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/404124723f583b9259ad9c706d2ffcbc/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.isupatches/wisefy/3.0.1/92939c2b01f6e2b6c86c0382a2c59f676635165a/wisefy-3.0.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
