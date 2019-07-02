@@ -1,7 +1,7 @@
 package com.forzotechlabs.noteappmvvm.Core.Dagger.Modules;
 
-import com.forzotechlabs.noteappmvvm.Core.data.online.ApiService;
-import com.forzotechlabs.noteappmvvm.Utils.Constants;
+import com.forzotechlabs.noteappmvvm.Core.data.remote.ApiService;
+import com.forzotechlabs.noteappmvvm.utils.Constants;
 import com.jakewharton.retrofit2.adapter.rxjava2.RxJava2CallAdapterFactory;
 
 import java.util.concurrent.TimeUnit;

@@ -1,4 +1,4 @@
-package com.forzotechlabs.noteappmvvm.Utils;
+package com.forzotechlabs.noteappmvvm.utils;
 
 public class Constants {
 

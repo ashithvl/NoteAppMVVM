@@ -17,7 +17,7 @@
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
         <activity
-            android:name=".View.Activities.HomeActivity"
+            android:name=".view.activities.HomeActivity"
             android:launchMode="singleTop">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -26,8 +26,8 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".View.Activities.AddEditNoteActivity"
-            android:parentActivityName=".View.Activities.HomeActivity" />
+            android:name=".view.activities.AddEditNoteActivity"
+            android:parentActivityName=".view.activities.HomeActivity" />
     </application>
 
 </manifest>

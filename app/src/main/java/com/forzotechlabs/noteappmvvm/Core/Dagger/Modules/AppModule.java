@@ -2,11 +2,11 @@ package com.forzotechlabs.noteappmvvm.Core.Dagger.Modules;
 
 import android.content.Context;
 
-import com.forzotechlabs.noteappmvvm.Core.data.MainAppStore;
-import com.forzotechlabs.noteappmvvm.Core.data.offline.OfflineStore;
-import com.forzotechlabs.noteappmvvm.Core.data.online.OnlineStore;
+import com.forzotechlabs.noteappmvvm.Core.data.MainAppDataSource;
+import com.forzotechlabs.noteappmvvm.Core.data.local.LocalData;
+import com.forzotechlabs.noteappmvvm.Core.data.remote.RemoteData;
 import com.forzotechlabs.noteappmvvm.MainApplication;
-import com.forzotechlabs.noteappmvvm.Utils.Utils;
+import com.forzotechlabs.noteappmvvm.utils.Utils;
 import com.google.gson.Gson;
 
 import javax.inject.Singleton;
@@ -25,8 +25,8 @@ public class AppModule {
 
     @Singleton
     @Provides
-    MainAppStore provideMainAppStore(OnlineStore onlineStore, OfflineStore offlineStore){
-        return new MainAppStore(onlineStore, offlineStore);
+    MainAppDataSource provideMainAppStore(RemoteData remoteData, LocalData localData){
+        return new MainAppDataSource(remoteData, localData);
     }
 
     @Singleton

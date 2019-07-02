@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1098504012687",
+    "firebase_url": "https://noteappmvvm.firebaseio.com",
+    "project_id": "noteappmvvm",
+    "storage_bucket": "noteappmvvm.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1098504012687:android:635b91b3862dfe28",
+        "android_client_info": {
+          "package_name": "com.forzotechlabs.noteappmvvm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1098504012687-hnc49pd7h95ku4f17258abolp0fng0q7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.forzotechlabs.noteappmvvm",
+            "certificate_hash": "74ecc00fd4f5ddb66d26b6530da6804ac6679cb1"
+          }
+        },
+        {
+          "client_id": "1098504012687-r1jpciej3brrpogokri3rebbftm7fs2q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBDwghcIbEJ6OGj0cTVYqQhxE38HrJn1ME"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1098504012687-r1jpciej3brrpogokri3rebbftm7fs2q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

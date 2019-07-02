@@ -3,7 +3,7 @@ package com.forzotechlabs.noteappmvvm;
 import com.crashlytics.android.Crashlytics;
 import com.crashlytics.android.core.CrashlyticsCore;
 import com.forzotechlabs.noteappmvvm.Core.Dagger.Components.DaggerMainComponent;
-import com.forzotechlabs.noteappmvvm.Utils.Error.ReleaseTree;
+import com.forzotechlabs.noteappmvvm.utils.error.ReleaseTree;
 
 import net.danlew.android.joda.JodaTimeAndroid;
 
