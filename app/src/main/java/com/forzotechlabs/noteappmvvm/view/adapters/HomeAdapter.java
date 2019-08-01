@@ -10,7 +10,7 @@ import androidx.recyclerview.widget.DiffUtil;
 import androidx.recyclerview.widget.ListAdapter;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.forzotechlabs.noteappmvvm.model.room.entities.Note;
+import com.forzotechlabs.noteappmvvm.core.data.local.room.entities.Note;
 import com.forzotechlabs.noteappmvvm.R;
 
 public class HomeAdapter extends ListAdapter<Note, HomeAdapter.NoteHolder> {

@@ -6,7 +6,7 @@ import androidx.annotation.NonNull;
 import androidx.lifecycle.AndroidViewModel;
 import androidx.lifecycle.LiveData;
 
-import com.forzotechlabs.noteappmvvm.model.room.entities.Note;
+import com.forzotechlabs.noteappmvvm.core.data.local.room.entities.Note;
 import com.forzotechlabs.noteappmvvm.model.repositories.NoteRepository;
 
 import java.util.List;

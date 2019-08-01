@@ -15,7 +15,7 @@ import androidx.recyclerview.widget.ItemTouchHelper;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.forzotechlabs.noteappmvvm.model.room.entities.Note;
+import com.forzotechlabs.noteappmvvm.core.data.local.room.entities.Note;
 import com.forzotechlabs.noteappmvvm.R;
 import com.forzotechlabs.noteappmvvm.view.adapters.HomeAdapter;
 import com.forzotechlabs.noteappmvvm.viewmodel.HomeViewModel;

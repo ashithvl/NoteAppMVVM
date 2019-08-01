@@ -1,4 +1,4 @@
-package com.forzotechlabs.noteappmvvm.Utils.Error;
+package com.forzotechlabs.noteappmvvm.utils.error;
 
 import android.util.Log;
 
