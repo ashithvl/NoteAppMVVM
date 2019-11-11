@@ -15,8 +15,8 @@ import androidx.recyclerview.widget.ItemTouchHelper;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.forzotechlabs.noteappmvvm.core.data.local.room.entities.Note;
 import com.forzotechlabs.noteappmvvm.R;
+import com.forzotechlabs.noteappmvvm.core.data.local.room.entities.Note;
 import com.forzotechlabs.noteappmvvm.view.adapters.HomeAdapter;
 import com.forzotechlabs.noteappmvvm.viewmodel.HomeViewModel;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
@@ -38,6 +38,7 @@ public class HomeActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         FloatingActionButton buttonAddNote = findViewById(R.id.button_add_note);
+
         buttonAddNote.setOnClickListener(v -> {
             Intent intent = new Intent(HomeActivity.this, AddEditNoteActivity.class);
             startActivityForResult(intent, ADD_NOTE_REQUEST);
